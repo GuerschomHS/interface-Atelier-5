@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.interfaceatelier5.HelloController"
+      spacing="10"
+      alignment="center">
+
+    <Label text="Choisissez une option :" />
+
+    <Button text="Ajouter un produit" fx:id="btnAddProduct" onAction="#handleButtonAction" />
+    <Button text="Supprimer un produit" fx:id="btnRemoveProduct" onAction="#handleButtonAction"/>
+    <Button text="Modifier un produit" fx:id="btnModifyProduct" />
+    <Button text="Rechercher un produit" fx:id="btnSearchProduct" />
+    <Button text="Lister les produits" fx:id="btnListProducts" />
+    <Button text="Nombre de produits en stock" fx:id="btnProductCount" />
+    <Button text="Afficher la valeur en stock" fx:id="btnStockValue" />
+    <Button text="Quitter" fx:id="btnQuit" />
+
+</VBox>
+
+
