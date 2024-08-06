@@ -52,5 +52,7 @@ Retour au Menu Principal
 
 Fonctionnalité : Permet de revenir au menu principal de l'application.
 Détails : L'utilisateur peut revenir au menu principal à tout moment en utilisant cette fonctionnalité.
+![baseDeDonnees](https://github.com/user-attachments/assets/e1f181a4-67d4-4bc2-b4aa-6ca476a48258)
+
 
 
